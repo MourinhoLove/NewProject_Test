@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE29866B225B3C3400B8267B /* UseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE29866A225B3C3400B8267B /* UseInfo.swift */; };
+		EE5186BE225E024300C1F3B0 /* VNBRluerPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5186BD225E024300C1F3B0 /* VNBRluerPicker.m */; };
 		EEBB49CB203D75BB00BE11F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB49CA203D75BB00BE11F0 /* AppDelegate.swift */; };
 		EEBB49CD203D75BB00BE11F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB49CC203D75BB00BE11F0 /* ViewController.swift */; };
 		EEBB49D0203D75BB00BE11F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBB49CE203D75BB00BE11F0 /* Main.storyboard */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE29866A225B3C3400B8267B /* UseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseInfo.swift; sourceTree = "<group>"; };
+		EE5186BC225E024300C1F3B0 /* VNBRluerPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNBRluerPicker.h; sourceTree = "<group>"; };
+		EE5186BD225E024300C1F3B0 /* VNBRluerPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNBRluerPicker.m; sourceTree = "<group>"; };
+		EE5186BF225E029E00C1F3B0 /* RulerPicker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RulerPicker-Bridging-Header.h"; sourceTree = "<group>"; };
 		EEBB49C7203D75BB00BE11F0 /* NewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBB49CA203D75BB00BE11F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEBB49CC203D75BB00BE11F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE5186BB225E024300C1F3B0 /* RulerPicker */ = {
+			isa = PBXGroup;
+			children = (
+				EE5186BC225E024300C1F3B0 /* VNBRluerPicker.h */,
+				EE5186BD225E024300C1F3B0 /* VNBRluerPicker.m */,
+			);
+			path = RulerPicker;
+			sourceTree = "<group>";
+		};
 		EEBB49BE203D75BB00BE11F0 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +112,15 @@
 		EEBB49C9203D75BB00BE11F0 /* NewProject */ = {
 			isa = PBXGroup;
 			children = (
+				EE5186BB225E024300C1F3B0 /* RulerPicker */,
 				EEBB49CA203D75BB00BE11F0 /* AppDelegate.swift */,
 				EEBB49CC203D75BB00BE11F0 /* ViewController.swift */,
 				EEBB49CE203D75BB00BE11F0 /* Main.storyboard */,
 				EEBB49D1203D75BB00BE11F0 /* Assets.xcassets */,
 				EEBB49D3203D75BB00BE11F0 /* LaunchScreen.storyboard */,
 				EEBB49D6203D75BB00BE11F0 /* Info.plist */,
+				EE29866A225B3C3400B8267B /* UseInfo.swift */,
+				EE5186BF225E029E00C1F3B0 /* RulerPicker-Bridging-Header.h */,
 			);
 			path = NewProject;
 			sourceTree = "<group>";
@@ -260,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEBB49CD203D75BB00BE11F0 /* ViewController.swift in Sources */,
+				EE5186BE225E024300C1F3B0 /* VNBRluerPicker.m in Sources */,
+				EE29866B225B3C3400B8267B /* UseInfo.swift in Sources */,
 				EEBB49CB203D75BB00BE11F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +451,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.benjieming.edu.NewProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewProject/RulerPicker-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,6 +466,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.benjieming.edu.NewProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewProject/RulerPicker-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
